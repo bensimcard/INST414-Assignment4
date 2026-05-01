@@ -18,12 +18,6 @@ The dataset used in this project is a unimodal edge list of Marvel character co-
 * **Elbow Method Optimization:** Programmatically generates an Elbow Plot to determine the optimal number of clusters ($k$).
 * **Network Visualization:** Utilizes `NetworkX` to render a force-directed graph of the Marvel universe, color-coded by the resulting K-Means clusters.
 
-## Key Findings
-The algorithm segmented the Top 50 Marvel characters into three distinct narrative ecosystems:
-1. **The Frontline Heavy Hitters:** The most highly connected crossover characters (e.g., Captain America, Spider-Man, Wolverine).
-2. **The Sci-Fi & Mutant Foundation:** The genetic and technological core of the universe (e.g., Professor X, Iron Man, Invisible Woman).
-3. **The Shadow Network:** The street-level, espionage, and magical characters (e.g., Daredevil, Black Widow, Dr. Strange).
-
 ## Repository Contents
 * `marvel_clustering.py` (or `.ipynb`): The main Python script/notebook containing the data ingestion, K-Means modeling, and visualization code.
 * `elbow_plot.png`: The generated graph used to determine our $k$ value.
@@ -33,5 +27,5 @@ The algorithm segmented the Top 50 Marvel characters into three distinct narrati
 To run this code locally, ensure you have the following Python libraries installed:
 ```bash
 pip install pandas scikit-learn matplotlib networkx
-
-This README was created with the assistance of Google Gemini.
+---
+*Note: This README was created with the assistance of Gemini.*

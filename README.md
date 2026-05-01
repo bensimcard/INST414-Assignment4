@@ -27,5 +27,6 @@ The dataset used in this project is a unimodal edge list of Marvel character co-
 To run this code locally, ensure you have the following Python libraries installed:
 ```bash
 pip install pandas scikit-learn matplotlib networkx
+```
 ---
 *Note: This README was created with the assistance of Gemini.*

@@ -33,3 +33,5 @@ The algorithm segmented the Top 50 Marvel characters into three distinct narrati
 To run this code locally, ensure you have the following Python libraries installed:
 ```bash
 pip install pandas scikit-learn matplotlib networkx
+
+This README was created with the assistance of Google Gemini.
